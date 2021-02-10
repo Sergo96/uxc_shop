@@ -1,0 +1,49 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 42px;
+  padding-left: 183px;
+  padding-right: 183px;
+}
+
+.options > ul {
+  display: flex;
+}
+
+.options > ul > a {
+  cursor: pointer;
+  padding-right: 95px;
+  font-family: 'MADE Canvas';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.link__opt {
+  text-decoration: none;
+  color: black;
+}
+
+.link__opt-active {
+  text-decoration: none;
+  color: #780202;
+}
+
+.icons > img {
+  padding-right: 35px;
+  cursor: pointer;
+  height: 29px;
+}
+
+.link__basket {
+  padding-right: 30px;
+}
+
+.link__basket-active {
+  padding-right: 30px;
+
+  color: #780202;
+}

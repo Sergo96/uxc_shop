@@ -1,0 +1,29 @@
+.head {
+  height: 135vh;
+  width: 1906px;
+  background-image: url(../../assets/headback.jpg);
+  background-size: cover;
+  margin-bottom: 120px;
+}
+
+.head__info {
+  text-align: center;
+  padding-top: 281px;
+}
+
+.head__info > h1 {
+  font-family: 'MADE Canvas';
+
+  font-weight: 400;
+  font-size: 94px;
+  line-height: 74px;
+  color: #780202;
+  padding-bottom: 60px;
+}
+
+.head__info > a {
+  text-decoration: none;
+  background-color: #fff;
+  color: black;
+  padding: 20px 59px 20px 60px;
+}

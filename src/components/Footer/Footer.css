@@ -1,0 +1,26 @@
+.footer {
+  background: #eeeeee;
+  height: 250px;
+}
+
+.footer__rows {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 31px;
+  margin-right: 185px;
+  margin-left: 185px;
+}
+
+.footer__row > h1 {
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}

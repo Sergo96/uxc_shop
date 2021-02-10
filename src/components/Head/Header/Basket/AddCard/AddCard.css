@@ -1,0 +1,208 @@
+.addCard {
+  padding-top: 127px;
+  padding-left: 310px;
+  padding-bottom: 120px;
+  display: flex;
+}
+
+.creditCard {
+  background-image: url(../../../../../assets/creditcard.png);
+  width: 620px;
+  height: 366px;
+  transform: translateX(30%);
+}
+
+.creditCard__logo > img {
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.lines-one {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-left: 250px;
+  margin-bottom: 38px;
+}
+
+.linefirst {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.linesecond {
+  margin-right: 15px;
+}
+
+.creditcard__accept {
+  margin-top: 25px;
+  width: 469px;
+  height: 316px;
+  background: #eeeeee;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.card-basket__desc {
+  font-family: 'MADE Canvas';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+  padding-top: 80px;
+  padding-left: 258px;
+
+  color: #000000;
+}
+
+.card-basket__price {
+  font-family: 'MADE Canvas';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+  padding-left: 289px;
+  padding-top: 15px;
+
+  color: #780202;
+}
+
+.creditcard__accept > button {
+  margin-top: 20px;
+  margin-left: 215px;
+  color: white;
+  background: #780202;
+  width: 200px;
+  height: 60px;
+}
+
+.card__info {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.card__info > p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+
+.card__info > input {
+  background: transparent;
+  border: none;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+  text-align: end;
+}
+
+.card__info > input::placeholder {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+}
+
+.card__line > p {
+  text-decoration-line: underline;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+
+  padding-right: 305px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.card__info-shorts {
+  display: flex;
+}
+
+.card__line-short > p {
+  text-decoration-line: underline;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+
+  padding-right: 260px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.card__info-short-input {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.card__info-short-input > p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+
+.card__info-short-input > input {
+  background: transparent;
+  border: none;
+  text-align: end;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+
+.card__info-short-input > input::placeholder {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.lines-two {
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 10px;
+}

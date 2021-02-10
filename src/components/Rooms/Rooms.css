@@ -1,0 +1,71 @@
+.rooms {
+  text-align: center;
+}
+
+.rooms__info > h1 {
+  font-family: 'MADE Canvas';
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  color: #780202;
+  margin-bottom: 30px;
+}
+
+.rooms__info > p {
+  position: absolute;
+  max-width: 774px;
+  height: 50px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: capitalize;
+  padding-left: 589px;
+  color: #000000;
+}
+
+.rooms__info-img {
+  display: flex;
+  margin-left: 158px;
+  padding-top: 120px;
+}
+
+.room__info-img {
+  padding: 10px;
+  padding-bottom: 60px;
+}
+
+.room__info-img-thumb {
+  width: 775px;
+}
+
+.room__info-img-thumb:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+
+.room__info-img > h1 {
+  margin-top: 30px;
+  font-family: 'MADE Canvas';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 147.19%;
+  /* identical to box height, or 53px */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.arrow {
+  padding-top: 10px;
+  padding-left: 120px;
+}
